@@ -1,6 +1,7 @@
 body {
-    background-color: #393646; color: #F4EEE0;
+    background-color: #F4EEE0; color: #393646;
 }
+
 
 hr { 
     border-top: dotted #F4EEE0;
@@ -15,4 +16,23 @@ h1 {
 
 h3 {
     color: #66BFBF;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: red;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font: small;
+    float: left;
+    background-color: black;
+    width: 100%;
+    text-align: right;
+    opacity: .2;
 }
