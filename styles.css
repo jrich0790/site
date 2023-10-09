@@ -24,6 +24,7 @@ nav {
     z-index: 1;
     background-color: red;
     margin: auto;
+    width: 20%;
 }
 
 footer {
